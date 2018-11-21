@@ -20,8 +20,7 @@ public struct FolderTree {
     }
     
     public init(swaggerURL: URL) throws {
-        let contents = try String(contentsOf: swaggerURL)
-        let swagger = try Swagger(from: contents)
+        let swagger = try Swagger(URL: swaggerURL)
         try self.init(swagger: swagger)
     }
     

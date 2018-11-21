@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/Automatic/SwaggerParser.git",
         "state": {
           "branch": null,
-          "revision": "afb5d3d898a3c780e9449397656858ef7942f8a1",
-          "version": "0.6.2"
+          "revision": "e92e769c6408d82bbd29759b844a4da17ff4d447",
+          "version": "0.6.1+separated"
         }
       }
     ]
